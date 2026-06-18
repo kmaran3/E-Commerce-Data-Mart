@@ -1,5 +1,7 @@
 # E-Commerce Data Mart
 
+[dbt Docs](https://kmaran3.github.io/E-Commerce-Data-Mart/) · [Dashboard](https://datastudio.google.com/reporting/6d8eb6e3-dd09-42b1-a00c-5b2cba397b22)
+
 A production-style analytics engineering project built with dbt and BigQuery, 
 modeling two years of synthetic e-commerce data into a queryable data mart 
 for revenue, customer, and retention analysis.
@@ -53,7 +55,12 @@ Marts can reference other marts via `ref()` when the upstream mart is stable and
 Built in Looker Studio connected directly to BigQuery mart tables.  
 4 pages: Revenue Overview · Customer Analysis · Product Performance · Cohort Retention
 
-https://datastudio.google.com/reporting/6d8eb6e3-dd09-42b1-a00c-5b2cba397b22
+[View Live Dashboard](https://datastudio.google.com/reporting/6d8eb6e3-dd09-42b1-a00c-5b2cba397b22)
+
+## Documentation
+Full dbt docs with lineage graph, column descriptions, and test coverage:
+
+[View Live dbt Docs](https://kmaran3.github.io/E-Commerce-Data-Mart/)
 
 ## Business Questions Answered
 
